@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery tutorial</title>
+	 <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script >
+	$(document).ready(function(){
+	 $("#hide").click( function(){
+  $(".img").hide();
+  });
+
+   $("#show").click(function(){
+   $(".img").show();
+   });
+
+ $( function(){
+   $("#drop").resizable();
+   });
+
+
+   $("#fill").click(function(){
+   $("body").animate({
+   	backgroundColor:"blue";
+   })
+   });
+
+  });
+
+</script>
+	
+	<link rel="stylesheet" type="text/css" href="timepass.css">
+</head>
+<body>
+<div class="buttons">
+    <button id="hide">hide</button>
+	<button id="show">show</button>
+		<button id="fill">Color me</button>
+</div><br><br>
+<p>hello</p>
+<div class="img">
+	<img src="girl.jpg" id="1">
+	<img src="wall5.jpg" id="2">
+	</div><br><br>
+
+Number: <input type="number" name="phoneno" id="no"><br>
+Name: <input type="text" name="name" id="name"><br><br>
+<div class="list">
+<ul >
+	<li>Apple</li>
+	<li>Banana</li>
+	<li>Orange</li>
+	<li>Guava</li>
+	<li>Watermelon</li>
+	<li>Strawberry</li>
+	<li>Litchi</li>
+	<li>Mango</li>
+</ul>
+</div>
+
+<div id="drop">resize</div>
+<script>
+	$( function(){
+   $("#1").draggable();
+    
+  });
+$( function(){
+   $("#2").draggable();
+   
+  });
+
+
+
+
+</script>
+</body>
+
+</html>

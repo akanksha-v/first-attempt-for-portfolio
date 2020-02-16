@@ -1,0 +1,50 @@
+*{text-align: center;
+     }
+body{background-color: #9CB2F0;}
+
+h1 {
+	font-family: algerian;
+	font-size: 50;
+	font-variant: small-caps;
+	color:green;
+	background-image: url(ucan.jpg);
+	border-style: double;
+	border-color: green;
+	border-width: 4px;
+	margin: 20px;
+	padding: 25px;
+	outline-style: dotted;
+	text-align: center;
+	outline-color: black;
+	font-weight: bold;
+
+}
+
+
+h2{  font-family: monospace;
+	 font-variant: small-caps;
+     font-size: 40;
+    background-color: grey;
+     background-image: radial-gradient (circle, blue, purple, green);
+     padding: 20px;
+     margin: 20px;
+     outline-style: solid;
+     outline-color: pink;
+
+}
+
+p {font-family: monospace;
+	 font-variant: sans-serif;
+     font-size: 40;
+    /* background-image: url(fly.jpg);*/
+    background-image: linear-gradient( rgba(255,0,0,0),rgba(25,0,0,1));
+     padding: 20px;
+     margin: 20px;
+     outline-color: pink;
+     outline-style: solid;
+}
+
+a:link {color: hotpink;}
+a:visited {color: purple;}
+a:hover{color: red;}
+a:active{color: blue;}

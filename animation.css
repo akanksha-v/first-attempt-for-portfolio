@@ -1,0 +1,185 @@
+body {background-color: #DE8888;}
+
+    #ani{background-color: red;
+    	  color: white;
+    	  width: 120px;
+          height:120px;
+          position: relative;
+         
+          border-color:grey;
+          border-style: solid; 
+          border-width: 5px;
+          
+          padding: 40px;
+          box-shadow: 0px 0px 12px black;
+          text-transform: uppercase;
+          font-size: 46;
+          animation-name: anime;
+          animation-duration: 5s;
+          animation-delay: 0s;
+          animation-iteration-count: 10;
+          animation-direction: alternate;
+         }
+   @keyframes anime
+    {   0%{background-color: red; border-radius:0%; left:0px; }
+       25%{background-color: yellow;  }
+       50%{background-color: green;   }
+       75%{background-color: purple; }
+      100%{background-color: red; border-radius:50%; left:500px; }             
+    }
+
+   #ani2{
+    background-image: linear-gradient(purple,blue,white);
+    height: 100px;
+    width: 100px;
+    border: 4px solid grey;
+    
+    position: relative;
+    box-shadow: 0px 10px 10px black;
+   
+    text-align:center;
+    animation-name:a;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+
+   } 
+   
+   @keyframes a
+   {  0%{border-radius: 0%; background-image: linear-gradient(purple,blue,white); transform: rotate(0deg); }
+      25%{background-image: linear-gradient(green,seagreen,white);}
+      50%{background-image: linear-gradient(red,orange,yellow);}
+      75%{background-image: linear-gradient(maroon,pink,lightpink);}
+      100%{border-radius: 50%;background-image:linear-gradient(purple,blue,white);transform: rotate(360deg);}
+   }
+#iframe{
+  float: right;
+  
+}
+#right{
+  position: absolute;
+  
+  background-image: linear-gradient(green,seagreen,white);
+  width: 100px;
+  height:100px;
+  top:220px;
+  animation-name: a;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+
+}
+
+#left{
+    position: absolute;
+     background-image: linear-gradient(green,seagreen,white);
+  width: 100px;
+  height: 100px;
+  top:220px;
+  left: 570px;
+  animation-name: a;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+
+}
+
+#top{
+  position: absolute;
+  
+  background-image: linear-gradient(green,seagreen,white);
+  width: 100px;
+  height:100px;
+  top:220px;
+  left: 190px;
+  animation-name: a;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+
+}
+
+
+#bottom{
+  position: absolute;
+  
+  background-image: linear-gradient(green,seagreen,white);
+  width: 100px;
+  height:100px;
+  top:220px;
+  left: 380px;
+  animation-name: a;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+
+}
+
+  #anie{background-color: red;
+        color: white;
+        width: 120px;
+          height:120px;
+          position: relative;
+         top:110px;
+          border-color:grey;
+          border-style: solid; 
+          border-width: 5px;
+          
+          padding: 40px;
+          box-shadow: 0px 0px 12px black;
+          text-transform: uppercase;
+          font-size: 46;
+          animation-name: anime;
+          animation-duration: 5s;
+          animation-delay: 0s;
+          animation-iteration-count: 10;
+          animation-direction: alternate;
+         }
+
+         #anie2{
+    background-image: linear-gradient(purple,blue,white);
+    height: 100px;
+    width: 100px;
+    border: 4px solid grey;
+    /*top:340px;*/
+    position: relative;
+    box-shadow: 0px 10px 10px black;
+   
+    text-align:center;
+    animation-name:a;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+
+   } 
+   .type{
+         width: 100px;
+          height:50px;
+          font-variant: small-caps;
+          background-image: linear-gradient(black,grey);
+          border: 5px solid grey;
+          margin: 4px;
+          position: relative;
+          top:120px;
+          left:50px;
+          font-size: 40;
+          color: white;
+          text-align: center;
+          padding: 5px;
+
+   }
+
+   .type:hover{
+    transform: scale(2);
+   }
+
+   button {
+    position: relative;
+    background color: ;
+   }

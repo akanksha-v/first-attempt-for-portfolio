@@ -1,0 +1,63 @@
+.class1{background-image:url(https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	     font-family: algerian;
+	     font-size: 42;
+	     color: white;
+	     border-style: outset;
+	     border-color: green;
+	     border-radius: 15px;
+	     border-width: medium;
+	     margin: 80px;
+	     padding: 20px;
+	     text-align: center;
+       }
+*{background-color : pink;
+   text-align: center;
+       }
+
+
+ .Paragraph{  background-color:steelblue;
+              border-style: solid;
+              margin:40px;
+              padding: 40px;
+              border-color: green;
+              border-radius: 20px;
+              font-size: 34;
+              font-family: calibiri;
+              color: white;
+              outline-style: dashed;}
+
+h2 {     font-family: algerian;
+	     font-size: 42;
+	     color: red;
+         background-color: yellow;         
+         border-color: black;
+       border-style: outset; 
+       outline-style: dashed;
+       outline-color: blue;
+}
+
+
+  .img{border-color: black;
+       border-style: solid; 
+       outline-style: dashed;
+       outline-color: red;
+       margin: 4px;
+       padding: 20px; 
+       background-color: lightgreen;}
+
+  #Woman{ font-family: monospace;
+  	      font-size:36 ;
+  	      color: purple;
+  	      border-color: purple;
+       border-style: solid; 
+       outline-style: dashed;
+       outline-color: purple;
+       margin: 4px;
+       padding: 20px; 
+       background-color: yellow;
+       
+
+  }
+

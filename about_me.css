@@ -1,0 +1,111 @@
+body{
+	background-color:black;
+	
+}
+
+.content{
+     position:absolute;
+    color: white;
+	font-family:algerian;
+	font-size: 30px;
+	color:white;
+    font-variant: small-caps;
+	left:450px;
+	width: 400px;
+    height: 100px;
+   
+
+}
+
+hr{
+	width: 75px;
+}
+
+
+.cont{position: absolute;
+	top:50px;
+	left:50px;
+	font-family: serif;
+	color: black;
+	font-style: oblique;
+	background-color: white;
+   width: 800px;
+   height: 450px;
+   font-size: 32px;
+   margin: 150px;
+	padding:20px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #646060;
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: white;
+
+}
+
+.ani{position: fixed;
+	 	background-color: white;
+         border-radius: 100%;
+         top:10px;
+         left:10px;
+         height:30px;
+	 	   width:30px;
+	 	   animation-name: animate;
+          animation-duration: 8s;
+          animation-delay: 0s;
+          animation-iteration-count:infinite;
+          animation-direction: alternate;
+     }
+
+@keyframes animate{
+          
+0%{top:0px; background-image: linear-gradient(grey,white); }
+
+100%{top:500px;background-image: linear-gradient(white,grey); }
+}
+
+
+ .line{ position: fixed;
+	 	   top:0px;
+	 	   left:1260px;
+	 	   background-color:white;
+	 	   height:300px;
+	 	   width: 1px; 
+	 	   z-index: 0px}
+
+	 .circle{ position: fixed;
+	 	background-image: linear-gradient(white,grey);
+         border-radius: 100%;
+         top:300px;
+         left:1225px;
+         height:70px;
+	 	   width:70px;
+
+	 	   z-index: 2px;
+	 }
+
+
+	 .line1{ position: fixed;
+	 	   top:0px;
+	 	   left:1300px;
+	 	   background-color:white;
+	 	   height:500px;
+	 	   width: 1px; 
+	 	   z-index: -1px}
+
+	 .circle1{ position: fixed;
+	 	background-image: linear-gradient(white,grey);
+         border-radius: 100%;
+         top:500px;
+         left:1255px;
+         height:90px;
+	 	   width:90px;
+	 	   z-index: 2px;
+	 }
+}
+    
+
+
+
+
+
